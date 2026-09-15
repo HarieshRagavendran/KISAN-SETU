@@ -1,4 +1,4 @@
-# Kisan Setu
+/# Kisan Setu
 
 A grounded assistant for Indian government farm-scheme eligibility. Farmers enter
 their state, category, land status, and crop, then ask a plain-language question.

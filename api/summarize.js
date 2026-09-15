@@ -1,7 +1,7 @@
 // Vercel serverless function — proxies requests to the Claude API so the
 // API key never reaches the browser. Deployed automatically at /api/summarize.
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res)  {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Use POST' });
     return;
