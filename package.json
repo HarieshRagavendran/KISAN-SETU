@@ -1,0 +1,9 @@
+{
+  "name": "kisan-setu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grounded assistant for Indian government farm-scheme eligibility, benefits, documents, and application process.",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
