@@ -41,7 +41,10 @@ module.exports = async function handler(req, res) {
         body: JSON.stringify({
           system_instruction: { parts: [{ text: system }] },
           contents: [{ role: 'user', parts: [{ text: query }] }],
-          generationConfig: { maxOutputTokens: 400 },
+          generationConfig: {
+          maxOutputTokens: 1024,
+           thinkingConfig: { thinkingBudget: 0 },
+          },
         }),
       }
     );
