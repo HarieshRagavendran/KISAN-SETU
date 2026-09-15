@@ -4,7 +4,7 @@
 // Model name changes fairly often on Google's free tier. If this starts
 // returning 404s, check https://ai.google.dev/gemini-api/docs/models for
 // the current free-tier model id and update GEMINI_MODEL below.
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = 'gemini-3.6-flash';
 
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
